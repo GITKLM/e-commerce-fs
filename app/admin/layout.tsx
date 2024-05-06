@@ -3,7 +3,7 @@ import { Nav, NavLink } from "@/components/Nav";
 // no cache on admin page
 export const dynamic = "force-dynamic";
 
-export default function layout({
+export default function Adminlayout({
     children,
   }: Readonly<{
     children: React.ReactNode;
